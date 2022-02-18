@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:background="#E3B3B3"
+                app:srcCompat="@drawable/u2" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#FFEB3B"
+                android:text="Samsung Galaxy S22 Ultra"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="#FAE9E9"
+                android:text="จอแสดงผล : Dynamic AMOLED 2X 24-bit  6.8 นิ้ว ความละเอียด 1440 x 3080  Refresh Rate 120Hz"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="#FAE9E9"
+                android:text="ระบบปฏิบัติการ : One UI 4.1 based on Android 12 CPU : Qualcomm : Snapdragon 8 Gen 1 Octa Core ความเร็ว : 3.0 GHz GPU : Adreno 730 RAM 8/12GB, ROM 128/256/512GB : UFS 3.1"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:background="#FAE9E9"
+                android:text="กล้องหลัง : 108MP + 12MP (Ultrawide) + 10MP (Telephoto) + 10MP (Periscope) (Quad Camera) - รูรับแสงขนาด ƒ/1.8 - ไฟแฟลช LED - ซูมดิจิตอล 100 เท่า (100x Digital Zoom) - ขนาดภาพสูงสุด 12,000 x 9,000 พิกเซล "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAE9E9"
+                android:text="กล้องหน้า : ความละเอียด 40MP - รูรับแสงขนาด ƒ/2.2 - กล้องหน้า HDR"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="#FAE9E9"
+                android:text="แบตเตอรี่ : แบตเตอรี่ 5,000 mAh (Standard Battery) - รองรับชาร์จไว 45W (Fast Charging) การใช้งานแบตเตอรี่ - ฟังเพลงต่อเนื่อง 81 ชั่วโมง (Music playback )"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAE9E9"
+                android:text="- ราคาเปิดตัว 39,900 บาท (กุมภาพันธ์ 65) รุ่น RAM 8GB + ROM 128GB ราคา 39,900 บาท รุ่น RAM 12GB + ROM 256GB ราคา 43,900 บาท รุ่น RAM 12GB + ROM 512GB ราคา 47,900 บาท"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
